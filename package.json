@@ -24,7 +24,7 @@
         },
         "./types": {
             "types": "./dist/types/index.d.ts",
-            "default": "./dist/types/index.js"
+            "default": "./dist/math/index.js"
         },
         "./xml": {
             "types": "./dist/xml/index.d.ts",
@@ -32,6 +32,28 @@
         }
     },
     "types": "dist/index.d.ts",
+    "typesVersions": {
+        "*": {
+            "index": [
+                "dist/index.d.ts"
+            ],
+            "math": [
+                "dist/math/index.d.ts"
+            ],
+            "object": [
+                "dist/object/index.d.ts"
+            ],
+            "string": [
+                "dist/string/index.d.ts"
+            ],
+            "types": [
+                "dist/types/index.d.ts"
+            ],
+            "xml": [
+                "dist/xml/index.d.ts"
+            ]
+        }
+    },
     "scripts": {
         "build": "tsc",
         "update-deps": "cd scripts && update-deps.bat"
