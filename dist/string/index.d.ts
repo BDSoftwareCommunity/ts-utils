@@ -1,5 +1,5 @@
-import { currency } from "./currency";
-import { mask } from "./mask";
-import { unMask } from "./unMask";
-import * as regex from './regex';
+import { currency } from "./currency.js";
+import { mask } from "./mask.js";
+import { unMask } from "./unMask.js";
+import * as regex from './regex.js';
 export { currency, mask, unMask, regex };

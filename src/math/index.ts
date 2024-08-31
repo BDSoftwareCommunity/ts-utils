@@ -1,13 +1,13 @@
-import { clamp } from "./clamp";
-import { euclideanModulo } from "./euclideanModulo";
-import { genUuid } from "./genUuid";
-import { map } from "./map";
-import { randomFloat } from "./randomFloat";
-import { randomInt } from "./randomInt";
-import { round } from "./round";
-import { sign } from "./sign";
-import { splitFractionDouble } from "./splitFractionDouble";
-import { sum } from "./sum";
+import { clamp } from "./clamp.js";
+import { euclideanModulo } from "./euclideanModulo.js";
+import { genUuid } from "./genUuid.js";
+import { map } from "./map.js";
+import { randomFloat } from "./randomFloat.js";
+import { randomInt } from "./randomInt.js";
+import { round } from "./round.js";
+import { sign } from "./sign.js";
+import { splitFractionDouble } from "./splitFractionDouble.js";
+import { sum } from "./sum.js";
 
 export {
     clamp,

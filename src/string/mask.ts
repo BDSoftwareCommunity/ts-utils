@@ -1,4 +1,4 @@
-import { unMask } from "./unMask"
+import { unMask } from "./unMask.js"
 
 const DIGIT = '0';
 const ALPHA = 'A';
